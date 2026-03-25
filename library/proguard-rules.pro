@@ -1,0 +1,1 @@
+# DroidXLS ProGuard rules

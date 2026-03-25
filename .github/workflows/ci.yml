@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: droidXLS
+      - uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository_owner }}/droidoffice-core
+          path: droidOffice-core
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+      - uses: gradle/actions/setup-gradle@v4
+      - name: Run tests
+        working-directory: droidXLS
+        run: ./gradlew :library:testDebugUnitTest
+      - name: Build release AAR
+        working-directory: droidXLS
+        run: ./gradlew :library:assembleRelease
