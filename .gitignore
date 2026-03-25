@@ -5,3 +5,9 @@ build/
 local.properties
 *.log
 library/build/
+
+# Internal docs (not for public repo)
+android_excel_library_spec.md
+docs/gumroad-integration.md
+docs/gumroad-listing.txt
+CLAUDE.md
