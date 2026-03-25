@@ -117,9 +117,7 @@ Converts to MIT 3 years after each release.
 | Plan | Price | For |
 |---|---|---|
 | Personal | Free | Individuals, OSS, NPO, education |
-| Indie | $99/year | Solo developers with commercial apps |
-| Startup | $399/year | Small teams |
-| Enterprise | Contact us | Large organizations |
+| Commercial | $99/year | All commercial use |
 
 Purchase at: *(Gumroad link to be added)*
 
