@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DroidXLS Sample App"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnBasicReadWrite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Basic Read/Write"
+                android:layout_marginBottom="8dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnStyles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Styles &amp; Formatting"
+                android:layout_marginBottom="8dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnFormulas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Formulas (30 functions)"
+                android:layout_marginBottom="8dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSheetOps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Sheet Operations"
+                android:layout_marginBottom="8dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnDataFeatures"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Data Features (Filter, Validation)"
+                android:layout_marginBottom="8dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. Password Protection"
+                android:layout_marginBottom="8dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnConvert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7. CSV / HTML Export"
+                android:layout_marginBottom="8dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnFullReport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8. Full Report (All Features)"
+                android:layout_marginBottom="8dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnRunAll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Run All Tests"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_marginBottom="16dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#F5F5F5"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tvLog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:textSize="12sp"
+            android:text="Ready.\n" />
+    </ScrollView>
+
+</LinearLayout>

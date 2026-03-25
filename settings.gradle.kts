@@ -18,6 +18,7 @@ dependencyResolutionManagement {
 rootProject.name = "droidxls"
 
 include(":library")
+include(":sample-app")
 
 // Composite build: depend on droidOffice-core source during development
 includeBuild("../droidOffice-core") {

@@ -9,11 +9,15 @@ robolectric = "4.14.1"
 droidoffice-core = { module = "com.droidoffice:droidoffice-core", version = "0.1.0-SNAPSHOT" }
 kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
 kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version = "1.7.0" }
+androidx-core-ktx = { module = "androidx.core:core-ktx", version = "1.15.0" }
+material = { module = "com.google.android.material:material", version = "1.12.0" }
 junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit5" }
 junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher" }
 robolectric = { module = "org.robolectric:robolectric", version.ref = "robolectric" }
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test" }
 
 [plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
 android-library = { id = "com.android.library", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
