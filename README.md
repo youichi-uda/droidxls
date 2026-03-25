@@ -119,7 +119,7 @@ Converts to MIT 3 years after each release.
 | Personal | Free | Individuals, OSS, NPO, education |
 | Commercial | $99/year | All commercial use |
 
-Purchase at: *(Gumroad link to be added)*
+Purchase at: https://y1uda.gumroad.com/l/droidxls
 
 ## Library Size
 
