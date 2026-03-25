@@ -39,7 +39,7 @@ object DroidXLS {
         val cache = SharedPrefsLicenseCache(
             context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
         )
-        val v = GumroadLicenseVerifier(GUMROAD_PRODUCT_PERMALINK, cache)
+        val v = GumroadLicenseVerifier(GUMROAD_PRODUCT_ID, cache)
         v.initialize(licenseKey)
         verifier = v
     }
@@ -59,7 +59,8 @@ object DroidXLS {
             else -> "Not verified"
         }
 
-    internal const val GUMROAD_PRODUCT_PERMALINK = "VF7ciWroOci-4P2kqnw8Wg=="
+    // Gumroad product: https://y1uda.gumroad.com/l/droidxls
+    internal const val GUMROAD_PRODUCT_ID = "VF7ciWroOci-4P2kqnw8Wg=="
     private const val PREFS_NAME = "droidxls_license"
 }
 
