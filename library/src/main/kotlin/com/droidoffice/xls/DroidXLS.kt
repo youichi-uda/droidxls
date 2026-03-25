@@ -59,8 +59,7 @@ object DroidXLS {
             else -> "Not verified"
         }
 
-    // Gumroad product permalink — update to match your Gumroad product URL
-    internal const val GUMROAD_PRODUCT_PERMALINK = "droidxls"
+    internal const val GUMROAD_PRODUCT_PERMALINK = "VF7ciWroOci-4P2kqnw8Wg=="
     private const val PREFS_NAME = "droidxls_license"
 }
 
