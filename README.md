@@ -3,7 +3,7 @@
 [![License: BSL 1.1](https://img.shields.io/badge/License-BSL_1.1-blue.svg)](LICENSE)
 [![Android API 26+](https://img.shields.io/badge/API-26%2B-brightgreen.svg)](https://developer.android.com/about/versions/oreo)
 [![Kotlin](https://img.shields.io/badge/Kotlin-2.0-purple.svg)](https://kotlinlang.org)
-[![](https://jitpack.io/v/y1uda/droidxls.svg)](https://jitpack.io/#y1uda/droidxls)
+[![](https://jitpack.io/v/youichi-uda/droidxls.svg)](https://jitpack.io/#youichi-uda/droidxls)
 
 **Read and write Excel .xlsx files natively on Android.** Kotlin-first API, SAX streaming for low memory usage, and a ~235KB AAR — built specifically for Android, not ported from Java desktop libraries.
 
@@ -164,12 +164,12 @@ DroidXLS is part of the **DroidOffice** library family:
 
 | Library | Format | Status |
 |---|---|---|
-| **[DroidXLS](https://github.com/y1uda/droidxls)** | .xlsx (Excel) | Available |
+| **[DroidXLS](https://github.com/youichi-uda/droidxls)** | .xlsx (Excel) | Available |
 | **DroidDoc** | .docx (Word) | Planned |
 | **DroidSlide** | .pptx (PowerPoint) | Planned |
 
-All libraries share [droidoffice-core](https://github.com/y1uda/droidoffice-core) for OOXML parsing, licensing, and common styles.
+All libraries share [droidoffice-core](https://github.com/youichi-uda/droidoffice-core) for OOXML parsing, licensing, and common styles.
 
 ## Contributing
 
-Issues and pull requests are welcome on [GitHub](https://github.com/y1uda/droidxls/issues).
+Issues and pull requests are welcome on [GitHub](https://github.com/youichi-uda/droidxls/issues).
